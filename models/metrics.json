@@ -1,0 +1,31 @@
+{
+  "validation": {
+    "rows": 11806,
+    "accuracy": 0.6585634423174657,
+    "log_loss": 0.6119170784950256,
+    "brier": 0.21204641461372375,
+    "auc": 0.7231761291709907
+  },
+  "test": {
+    "rows": 14938,
+    "accuracy": 0.6511581202302852,
+    "log_loss": 0.6154361963272095,
+    "brier": 0.21414755284786224,
+    "auc": 0.7156038057675478
+  },
+  "features": [
+    "elo_diff",
+    "surface_elo_diff",
+    "elo_prob",
+    "surface_elo_prob",
+    "rank_diff",
+    "rank_points_diff",
+    "form_diff",
+    "surface_form_diff",
+    "matches_diff",
+    "h2h",
+    "common_count"
+  ],
+  "validation_start_year": 2022,
+  "test_start_year": 2024
+}

@@ -1,0 +1,19 @@
+{
+  "model": "xgboost",
+  "features": [
+    "elo_diff",
+    "surface_elo_diff",
+    "elo_prob",
+    "surface_elo_prob",
+    "rank_diff",
+    "rank_points_diff",
+    "form_diff",
+    "surface_form_diff",
+    "matches_diff",
+    "h2h",
+    "common_count"
+  ],
+  "train_rows": 37386,
+  "validation_rows": 11806,
+  "test_rows": 14938
+}
